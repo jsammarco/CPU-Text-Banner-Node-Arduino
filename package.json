@@ -1,0 +1,27 @@
+{
+  "name": "CPU-Text-Banner-Node-Arduino",
+  "version": "1.0.0",
+  "description": "Control a RGB LED display over serial with node and and arduino pro mini 5v (328 16mhz)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CPU",
+    "LED",
+    "Light",
+    "Banner",
+    "Display",
+    "Node",
+    "Arduino",
+    "ws2812",
+    "Neopixel"
+  ],
+  "author": "Joseph Sammarco (ConsultingJoe.com)",
+  "license": "ISC",
+  "dependencies": {
+    "cpu-load": "^1.0.0",
+    "serialport": "^2.0.0",
+    "usage": "^0.7.1"
+  }
+}
